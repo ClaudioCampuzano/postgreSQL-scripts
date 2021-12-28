@@ -67,7 +67,7 @@ begin
 end;
 $$
 
-create or replace function logds_toinflux_1() 
+create or replace function logds_toinflux_2() 
 	returns table (
 		id_cc int,
   		id_ds int,
